@@ -440,3 +440,29 @@ ul {
   background-color: #f5f4fa;
   margin-bottom: 30px;
 }
+
+.icon-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+  margin-top: 16px;
+}
+
+.soc-link {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+
+.soc-link:hover,
+.soc-link:focus {
+  background-color: var(--link-logo-blue);
+  fill: #ffffff;
+}
