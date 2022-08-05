@@ -99,6 +99,10 @@ ul {
 
 .header-contact-list-item,
 .header-link {
+  display: flex;
+  align-items: center;
+  fill: currentColor;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -110,10 +114,26 @@ ul {
   color: var(--link-logo-blue);
 }
 
+.contacts-icon {
+  margin-right: 10px;
+}
+
 /* -----------------------main sstyles-------------------- */
 /* HERO section */
 .hero-section {
   background-color: var(--f-s-backgroud-color);
+
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-title {
@@ -408,3 +428,15 @@ ul {
 }
 
 /* border: 1px solid #EEEEEE; */
+
+.icon-benefits-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 120px;
+
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
